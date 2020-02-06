@@ -1,0 +1,106 @@
+body{
+    background-color: #86878a;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #86878a !important;
+}
+.navbar ul li a{
+    color: #fff !important;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.hero{
+    position: relative;
+}
+.title{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    max-width: 60%;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+a{
+    color: #000;
+}
+a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.white-bgd{
+    background-color: #fff;
+    padding: 15px;
+}
+.white{
+    color:#fff; 
+}
+.white-footer{
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 5px;
+}
+.what, .what h4{
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.left{
+    text-align: right;
+}
+.right{
+    text-align: left;
+}
+.img-small{
+    max-width:150px;
+}
+.center{
+    text-align: center;
+}
+form label{
+    color: orange;
+}
+#center-nav{
+    margin: initial;
+}
+
+@media only screen and (max-width: 850px) {
+    .title{
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 680px) {
+    #center-nav{
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .title{
+        position: relative;
+        max-width: 100%;
+        margin-left: 10px;
+        text-align: center;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 563px) {
+    #center-nav{
+        margin-left: 1px;
+    }
+    .btn-warning{
+        width: 100% !important;
+    }
+    .inline{
+        text-align: center;
+    }
+}
